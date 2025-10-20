@@ -8,7 +8,7 @@ ADD play-1.3.1 /play
 RUN ln -s /usr/bin/python2 /usr/bin/python
 
 RUN mkdir /json2apex
-ADD https://github.com/superfell/json2apex.git#1.0 /json2apex
+ADD https://github.com/superfell/json2apex.git#1.1 /json2apex
 
 EXPOSE 9091
 WORKDIR /json2apex
